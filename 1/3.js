@@ -16,4 +16,4 @@ price: 1000,
 },
 ];
 
-products.forEach(element => console.log(element.price * 0.85))
+products.forEach(element => console.log(element.id + " = " + element.price * 0.85))
