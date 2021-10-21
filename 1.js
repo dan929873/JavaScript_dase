@@ -8,7 +8,7 @@
 'use sirict'
 
 // 1.1
-// 5
+// es5
 function Product(name, price){
     this.name = name;
     this.price = price;
@@ -20,7 +20,7 @@ Product1.make25PercentDiscount = function (){
     console.log(this.price * 0.85)
 }
 
-// 6
+// es6
 class Product{
     constructor(name, price){
         this.name = name;
